@@ -1,15 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
-import Components from './Components';
-import ArrowFunction from './ArrowFunction';
+// import Components from './Components';
+// import ArrowFunction from './ArrowFunction';
+import OperatingSystem from './OperatingSystem';
+import Manufaturers from './Manufaturers';
 function App() {
   return (
-    <div className="App">
+    <div >
       
      {/* <Components></Components> */}
-     <ArrowFunction></ArrowFunction>
-
-      <div></div>
+     {/* <ArrowFunction></ArrowFunction> */}
+     <OperatingSystem></OperatingSystem>
+     <Manufaturers></Manufaturers>
     </div>
   );
 }
