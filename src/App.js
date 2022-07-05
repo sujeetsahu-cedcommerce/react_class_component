@@ -9,7 +9,7 @@ import { Playground } from './Structure';
 import { Adventure } from './Structure';
 function App() {
   return (
-    <div className="parent">
+    <div className="parents">
      <Components></Components> 
      <ArrowFunction></ArrowFunction> 
      <OperatingSystem></OperatingSystem>
